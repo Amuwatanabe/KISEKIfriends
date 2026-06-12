@@ -1,0 +1,47 @@
+.card_wed {
+	background-color: #ffe4e1;
+	margin: 30px auto 0 auto;
+	width: 80%;
+	padding: 20px;
+	border-radius: 10px;
+
+	h1 {
+		font-size: 25px;
+		color: #e34800;
+	}
+
+	p {
+		line-height: 1.2rem;
+	}
+}
+
+.photo {
+	margin: 20px;
+}
+
+/* ハートのスタイル */
+.hart {
+	position: fixed;
+	top: -20px;
+	color: #fff176;
+	animation: fall 4s linear infinite;
+	z-index: 1;
+	pointer-events: none;
+}
+
+@keyframes fall {
+	to {
+		transform: translateY(105vh) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+.next_stage {
+	color: #e34800;
+	border-bottom: 2px solid #e34800;
+}
+
+.bigfont {
+	font-size: 30px;
+	color: rgb(255, 18, 18);
+}
